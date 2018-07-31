@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a37b482-50bb-44b4-9f7e-3fe110323f27" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/viperfser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/xos/attic/header.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/xos/header.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/make_synchronizer_manifest.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/synchronizer/Dockerfile.synchronizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/synchronizer/model-deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/synchronizer/model_policies/model_policy_viperfserinstance.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/xos/synchronizer/models/viperfser.xproto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xos/synchronizer/Dockerfile.synchronizer" beforeDir="false" afterPath="$PROJECT_DIR$/xos/synchronizer/Dockerfile.synchronizer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xos/synchronizer/steps/sync_viperfserserviceinstance.py" beforeDir="false" afterPath="$PROJECT_DIR$/xos/synchronizer/steps/sync_viperfserserviceinstance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xos/viperfser-onboard.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xos/viperfser-onboard.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xos/viperfser.xproto" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/synchronizer/run-from-api.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/synchronizer/steps/sync_viperfserserviceinstance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/synchronizer/steps/viperfserserviceinstance_playbook.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/synchronizer/viperfser-synchronizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/synchronizer/viperfser_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/synchronizer/viperfser_from_api_config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xos/viperfser-onboard.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viperfser_config.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="viperfser_config.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xos/synchronizer/viperfser_config.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_policy_viperfserinstance.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xos/synchronizer/model_policies/model_policy_viperfserinstance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <folding>
+                <element signature="e#597#647#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,10 +119,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="192" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="width" value="1365" />
+    <option name="height" value="914" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -135,13 +159,6 @@
               <item name="xos" type="462c0819:PsiDirectoryNode" />
               <item name="synchronizer" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="viperfser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="viperfser" type="462c0819:PsiDirectoryNode" />
-              <item name="xos" type="462c0819:PsiDirectoryNode" />
-              <item name="synchronizer" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,8 +307,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32959327" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2786533" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32959327" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2786533" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -312,7 +329,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2786533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2786533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -321,7 +338,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32959327" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32959327" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -370,16 +387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xos/synchronizer/model_policies/model_policy_viperfserinstance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding>
-            <element signature="e#597#647#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -476,6 +483,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xos/synchronizer/model_policies/model_policy_viperfserinstance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#597#647#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
