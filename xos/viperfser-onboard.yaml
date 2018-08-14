@@ -28,7 +28,7 @@ topology_template:
           base_url: file:///opt/xos_services/viperfser/xos/
           # The following will concatenate with base_url automatically, if
           # base_url is non-null.
-          xproto: ./
+#          xproto: ./
 #          synchronizer: synchronizer/manifest
 #          synchronizer_run: synchronizer/viperfser-synchronizer.py
           private_key: file:///opt/xos/key_import/mcord_rsa
